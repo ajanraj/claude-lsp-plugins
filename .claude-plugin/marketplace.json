@@ -1,0 +1,19 @@
+{
+  "name": "claude-lsp-plugins",
+  "owner": {
+    "name": "ajanraj",
+    "email": "hey@ajanraj.com"
+  },
+  "plugins": [
+    {
+      "name": "vtsls-lsp",
+      "source": "./plugins/vtsls-lsp",
+      "description": "VS Code TypeScript/JavaScript language server (vtsls) - provides full VS Code-quality code intelligence for TS/JS files"
+    },
+    {
+      "name": "ty-lsp",
+      "source": "./plugins/ty-lsp",
+      "description": "Astral's ty - extremely fast Python type checker and language server (10-100x faster than Pyright)"
+    }
+  ]
+}

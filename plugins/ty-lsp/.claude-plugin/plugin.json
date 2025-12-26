@@ -1,0 +1,9 @@
+{
+  "name": "ty-lsp",
+  "version": "1.0.0",
+  "description": "Astral's ty - extremely fast Python type checker and language server for Claude Code",
+  "author": {
+    "name": "ajanraj"
+  },
+  "repository": "https://github.com/ajanraj/claude-lsp-plugins"
+}

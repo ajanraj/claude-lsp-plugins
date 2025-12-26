@@ -1,0 +1,9 @@
+{
+  "name": "vtsls-lsp",
+  "version": "1.0.0",
+  "description": "VS Code TypeScript/JavaScript language server (vtsls) for Claude Code",
+  "author": {
+    "name": "ajanraj"
+  },
+  "repository": "https://github.com/ajanraj/claude-lsp-plugins"
+}
