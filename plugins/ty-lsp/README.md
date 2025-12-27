@@ -31,6 +31,8 @@ pip install ty
 pipx install ty
 ```
 
+> Don't have uv? Install it from [astral.sh/uv](https://docs.astral.sh/uv/getting-started/installation/)
+
 ## Installation
 
 ```bash

@@ -8,6 +8,7 @@ A marketplace of modern, fast language server plugins for Claude Code.
 |--------|----------|-------------|
 | **vtsls-lsp** | TypeScript/JavaScript | VS Code's TypeScript language server - full VS Code-quality code intelligence |
 | **ty-lsp** | Python | Astral's ty - 10-100x faster than Pyright |
+| **pyrefly-lsp** | Python | Meta's Pyrefly - blazing fast type checker (1.85M+ lines/sec) |
 
 ## Quick Start
 
@@ -23,15 +24,19 @@ A marketplace of modern, fast language server plugins for Claude Code.
 # For TypeScript/JavaScript
 bun add -g @vtsls/language-server
 
-# For Python
-uv tool install ty@latest
+# For Python (choose one)
+uv tool install ty@latest      # ty
+uv tool install pyrefly        # Pyrefly
 ```
+
+> Don't have uv? Install it from [astral.sh/uv](https://docs.astral.sh/uv/getting-started/installation/)
 
 ### 3. Install the plugins
 
 ```bash
 /plugin install vtsls-lsp@claude-lsp-plugins
 /plugin install ty-lsp@claude-lsp-plugins
+/plugin install pyrefly-lsp@claude-lsp-plugins
 ```
 
 ### 4. Restart Claude Code
@@ -54,6 +59,14 @@ ty is Astral's new Python type checker (creators of Ruff and uv):
 - Written in Rust
 - Modern, actively maintained
 
+### Pyrefly vs Pylance
+
+Pyrefly is Meta's new Python type checker:
+- 1.85M+ lines per second
+- Written in Rust
+- Full LSP support with IDE features
+- Open source alternative to Pylance
+
 ## License
 
-MIT
+[MIT](LICENSE)

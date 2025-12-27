@@ -1,0 +1,9 @@
+{
+  "name": "pyrefly-lsp",
+  "version": "1.0.0",
+  "description": "Meta's Pyrefly - fast Python type checker and language server for Claude Code",
+  "author": {
+    "name": "ajanraj"
+  },
+  "repository": "https://github.com/ajanraj/claude-lsp-plugins"
+}
