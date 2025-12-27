@@ -1,0 +1,9 @@
+{
+  "name": "zls-lsp",
+  "version": "1.0.0",
+  "description": "ZLS - Zig Language Server for Claude Code",
+  "author": {
+    "name": "ajanraj"
+  },
+  "repository": "https://github.com/ajanraj/claude-lsp-plugins"
+}
