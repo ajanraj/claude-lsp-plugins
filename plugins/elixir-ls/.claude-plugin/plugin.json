@@ -1,0 +1,9 @@
+{
+  "name": "elixir-ls",
+  "version": "1.0.0",
+  "description": "ElixirLS - Elixir Language Server and Debugger for Claude Code",
+  "author": {
+    "name": "ajanraj"
+  },
+  "repository": "https://github.com/ajanraj/claude-lsp-plugins"
+}

@@ -10,6 +10,7 @@ A marketplace of modern, fast language server plugins for Claude Code.
 | **ty-lsp** | Python | Astral's ty - 10-100x faster than Pyright |
 | **pyrefly-lsp** | Python | Meta's Pyrefly - blazing fast type checker (1.85M+ lines/sec) |
 | **zls-lsp** | Zig | ZLS - the official Zig language server |
+| **elixir-ls** | Elixir | ElixirLS - language server and debugger for Elixir |
 
 ## Quick Start
 
@@ -31,6 +32,9 @@ uv tool install pyrefly        # Pyrefly
 
 # Zig
 brew install zls
+
+# Elixir
+brew install elixir-ls
 ```
 
 > Don't have uv? Install it from [astral.sh/uv](https://docs.astral.sh/uv/getting-started/installation/)
@@ -47,6 +51,9 @@ brew install zls
 
 # Zig
 /plugin install zls-lsp@claude-lsp-plugins
+
+# Elixir
+/plugin install elixir-ls@claude-lsp-plugins
 ```
 
 ### 4. Restart Claude Code
@@ -84,6 +91,15 @@ ZLS is the official Zig language server:
 - Semantic highlighting
 - Diagnostics and code actions
 - 3.7k GitHub stars, actively maintained
+
+### ElixirLS for Elixir
+
+ElixirLS is the Elixir language server:
+- Autocomplete and go-to-definition
+- Inline diagnostics and warnings
+- Documentation on hover
+- Debugger support
+- Phoenix/HEEx template support
 
 ## License
 
